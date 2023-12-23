@@ -1,0 +1,33 @@
+.nav_header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.nav_header_link_home,
+.nav_header_link_about {
+  font-size: 0.75rem;
+  text-decoration: none;
+  padding-left: 1.625rem;
+}
+
+@media screen and (min-width: 768px) {
+  .nav_header {
+    text-transform: none;
+    font-size: 24px;
+  }
+  .nav_header_link_home,
+  .nav_header_link_about {
+    font-size: 1.5rem;
+    padding-left: 3.5rem;
+  }
+  .nav_header_link-home:hover,
+  .nav_header_link-about:hover,
+  .nav_header_link-home:focus,
+  .nav_header_link-about:focus {
+    text-decoration-line: underline;
+    outline: none;
+    color: #FF6060;
+  }
+}

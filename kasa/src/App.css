@@ -1,4 +1,29 @@
-.App {
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  height:auto;
+  margin: 0; /* center */
+  padding: 0 1.25rem; /* 移动端左右边距为20px */
+}
+
+/* desktop */
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .container{
+    padding: 0 7%; 
+  }
+}
+
+body, h1, h2, h3, p, a {
+  color: #FF6060;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +60,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
