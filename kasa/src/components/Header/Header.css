@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 5.3%;
-  width: auto;
+  width: 89.4%;
   height:auto;
 }
  
@@ -11,7 +11,7 @@
   display: flex;
   align-items: flex-start;
   margin: 0;
-  width: 9rem;
+  width: 8.75rem;
   height: 2.93rem;
 }
 
@@ -37,6 +37,7 @@
 @media screen and (min-width: 768px) {
   .headerWrap {
     margin: 2.813rem 6.25rem 3.1125rem;
+    width: 86.1%;
   }
   .headerWrap_fig{
     width: 13.2rem;

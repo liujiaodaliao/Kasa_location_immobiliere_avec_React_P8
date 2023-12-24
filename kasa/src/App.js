@@ -6,13 +6,10 @@ import About from './pages/About/About';
 import Error from './pages/Error/Error';
 import Location from './pages/Location/Location';
 
-
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
 import './App.css';
-
-
 
 function App() {
   return (
