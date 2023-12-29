@@ -22,10 +22,10 @@
     font-size: 1.5rem;
     padding-left: 3.5rem;
   }
-  .nav_header_link-home:hover,
-  .nav_header_link-about:hover,
-  .nav_header_link-home:focus,
-  .nav_header_link-about:focus {
+  .nav_header_link_home:hover,
+  .nav_header_link_about:hover,
+  .nav_header_link_home:focus,
+  .nav_header_link_about:focus {
     text-decoration-line: underline;
     outline: none;
     color: #FF6060;

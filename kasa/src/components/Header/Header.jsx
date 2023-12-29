@@ -1,7 +1,7 @@
-import React from 'react';
-import logo from '../../assets/LOGO.svg';
-import Nav from '../Nav/Nav';
-import './Header.css'; 
+// import React from "react";
+import logo from "../../assets/LOGO.svg";
+import Nav from "../Nav/Nav";
+import "./Header.css"; 
 
 function Header() {
   return (
