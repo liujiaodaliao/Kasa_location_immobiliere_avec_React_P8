@@ -5,6 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  min-width: 375px;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px){
+body{
+  max-width: 1440px;
+}
 }
 
 code {
