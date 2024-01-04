@@ -18,7 +18,7 @@ function App() {
        <main>
         <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<div>About Placeholder</div>} />
+        <Route path="/about" element={<About />} />
 
         <Route path="*" element={<Error />} />
         <Route path="/location/:id" element={<div>Location Placeholder</div>} />
