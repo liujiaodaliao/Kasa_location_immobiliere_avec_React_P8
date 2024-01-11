@@ -1,10 +1,22 @@
-.aboutBackground{
+.AboutBannerContainer{
     height: 7rem;
     width: 89.5%;
     border-radius: 10px;
-    margin: 0 auto 1.375rem;
+    margin: 0 auto 1.188rem;
     position: relative;
-
     overflow: hidden;
-    background: #000;
+    /* background: #000;
+    background-image:  url("../../assets/AboutBanner.png") cover; 
+    background-size: cover;  */
+    background: #000 url('../../assets/AboutBanner.png') center/cover no-repeat;
+}
+
+
+@media screen and (min-width: 768px){
+   .AboutBannerContainer{
+    width: 86.1%;
+    height: 14rem;
+    margin: 30px auto 2.375rem;
+    border-radius: 25px;
+   } 
 }

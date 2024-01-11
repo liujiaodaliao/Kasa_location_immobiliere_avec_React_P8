@@ -1,0 +1,95 @@
+.collapse {
+  width: 89.5%;
+  height: 1.875rem;
+  margin: 20px auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.collapse_visible {
+  background: #FF6060;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px ;
+  border-radius: 5px;
+  height: 100%;
+  position: relative;
+}
+
+.collapse_visible h2 {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0;
+  color: #FFF; 
+}
+
+.collapse_toggle {
+  opacity: 0;
+  color: #FF6060; 
+  background: #f6f6f6;
+  border-radius: 5px;
+  transition: opacity 0.4s ease-in-out, height 0.4s 0.4s ease-in-out;
+  /* display: none; */
+}
+.animated {
+  opacity: 1;
+  transition: height 0.5s ease-in-out, opacity 0.5s 0.5s ease-in-out;
+}
+
+.collapse_toggle p {
+  margin: 0;
+  padding: 22px 15px;
+  pointer-events: none;
+  font-size: 12px;
+  font-weight: 400;
+} 
+
+.chevron {
+	width: 22px;
+	transform: rotate(0deg);
+	transition: 0.5s 0.5s ease-in-out;
+  position: absolute;
+  right: 2%;
+}
+
+.rotated {
+	transform: rotate(180deg);
+	transition: 0.5s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .collapse {
+    width: 71.1%;
+    height: 3.375rem;
+    margin: 30px auto;
+  }
+
+  .collapse_visible {
+    height: 100%;
+    padding: 15px;
+
+  }
+  
+  .collapse_visible h2 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .collapse_toggle {
+    padding: 10px 20px 10px 15px;
+  }
+
+  .collapse_toggle p {
+    font-size: 18px;
+    font-weight: 400;
+  } 
+
+  .chevron{
+    width: 32px;
+  }
+
+} 

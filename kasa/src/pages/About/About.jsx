@@ -1,19 +1,19 @@
 import React from "react";
 import AboutBanner from "../../components/AboutBanner/AboutBanner";
 import Collapse from "../../components/Collapse/Collapse";
-import aboutCollapse from "../../assets/aboutcollapse.json";
+import aboutCollapse from "../../assets/aboutCollapse.json";
 
-function About() {
+const About = () =>  {
+  // const defaultBackgroundImage = "../../assets/banner_aprops.png"
  
 return (
   <>
-    <AboutBanner />
+    <AboutBanner backgroundImage="../../assets/banner_aprops.png" />
     {aboutCollapse.map((rule, id) => (
       <Collapse
         key={id}
         aboutTitle={rule.aboutTitle}
-        aboutText={rule.aboutText}
-        aboutStyle="about-style"       //？？
+        aboutText={rule.aboutText}      
       />
     ))}
   </>

@@ -19,7 +19,6 @@ function App() {
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-
         <Route path="*" element={<Error />} />
         <Route path="/location/:id" element={<div>Location Placeholder</div>} />
         {/* 别忘了写好洗个页面此处对象改一下 */}
@@ -38,3 +37,4 @@ function App() {
 }
 
 export default App;
+//暴露APP组件
