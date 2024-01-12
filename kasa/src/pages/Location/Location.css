@@ -1,0 +1,27 @@
+.rate-host-container{
+    display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+
+}
+
+.hostInfo-container{
+    display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+@media screen and (min-width: 768px){
+    .rate-host-container{
+        flex-direction: column;
+		justify-content: center;
+    }
+    .hostInfo-container{ 
+        flex-direction: row;
+        align-items: flex-end;
+    }
+}

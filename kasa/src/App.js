@@ -23,11 +23,8 @@ function App() {
         <Route path="/location/:id" element={<div>Location Placeholder</div>} />
         {/* 别忘了写好洗个页面此处对象改一下 */}
 
-        {/* <Route path="/" element={<Home />} />
+        {/* 
         <Route path="/location/:id" element={<Location />} />
-        <Route path="/about" element={<About />} />
-        
-        <Route path="/error" element={<div>Error Placeholder</div>} />
         */}
         </Routes>
        </main>

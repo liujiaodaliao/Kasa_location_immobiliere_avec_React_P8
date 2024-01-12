@@ -12,6 +12,7 @@
 .errorTitle{
     font-size: 6rem;
     font-weight: 700;
+    margin: 113px auto;
 }
 
 .errorText{
@@ -19,6 +20,7 @@
     justify-content: center;
     text-align: center;
     font-size: 1.125rem;
+    margin: 0 auto 113px;
 }
 
 .errorLink{
