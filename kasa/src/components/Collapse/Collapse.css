@@ -33,7 +33,12 @@
   background: #f6f6f6;
   border-radius: 5px;
   transition: opacity 0.4s ease-in-out, height 0.4s 0.4s ease-in-out;
-  /* display: none; */
+  
+  display: flex;
+  flex-direction: column;
+  
+  /* 调整文本左对齐 */
+
 }
 .animated {
   opacity: 1;
@@ -42,10 +47,11 @@
 
 .collapse_toggle p {
   margin: 0;
-  padding: 22px 15px;
+  padding: 12px 15px;
   pointer-events: none;
   font-size: 12px;
   font-weight: 400;
+  line-height: 142.6%;
 } 
 
 .chevron {
