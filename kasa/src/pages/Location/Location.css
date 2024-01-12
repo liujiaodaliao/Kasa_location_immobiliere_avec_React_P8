@@ -1,3 +1,25 @@
+
+.title-tags-container{
+display: flex;
+flex-direction: column;
+}
+
+.title-tags-container h1{
+/* margin */
+font-size: 18px;
+}
+
+.title-tags-container h3{
+    font-size: 14px;
+    /* margin */
+}
+
+.tags-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* 垂直排列方式 */
+}
+
 .rate-host-container{
     display: flex;
 	flex-direction: row-reverse;
@@ -13,8 +35,6 @@
 }
 
 
-
-
 @media screen and (min-width: 768px){
     .rate-host-container{
         flex-direction: column;
@@ -24,4 +44,13 @@
         flex-direction: row;
         align-items: flex-end;
     }
+
+    .title-tags-container h1{
+        font-size: 36px;
+    }
+
+    .title-tags-container h3{
+        font-size: 18px;
+    }
+
 }
