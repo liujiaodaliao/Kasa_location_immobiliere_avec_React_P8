@@ -1,0 +1,93 @@
+#carrousel-container {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 15.938rem;
+
+  /* margin: 2% 0; */
+  /* 调整边距 */
+}
+
+.leftArrow,
+.rightArrow {
+  color: #fff;
+  /* width: 24px;
+  height: 24px; */
+  /* 调整尺寸 */
+  display: flex;
+  position: absolute;
+  top: 47%;
+  width: 12px;
+  height: 20px;
+  z-index: 10;
+  cursor: pointer;
+}
+.leftArrow {
+  left: 2%;
+}
+.rightArrow {
+  right: 2%;
+}
+
+.slider,
+.slider img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.slider {
+  opacity: 0;
+  transition: opacity ease-in-out 0.5s;
+}
+.slider img {
+  object-fit: cover;
+  mix-blend-mode: normal; /* 元素的内容在视觉上完全覆盖其背景 */
+}
+
+.slider:not(.active-anim) img {
+  display: none; /* 非活动状态的轮播图隐藏图片 */
+}
+
+.slider-number {
+  display: none;
+}
+
+.active-anim {
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  #carrousel-container {
+    height: 25.938rem;
+  }
+
+  .slider,
+  .slider img {
+    border-radius: 25px;
+  }
+
+  .leftArrow,
+  .rightArrow {
+    width: 47px;
+    height: 79px;
+  }
+
+  .slider-number {
+    display: block;
+    color: #fff;
+    width: 24px;
+    height: 32.402px;
+    font-size: 18px;
+
+    position: absolute;
+    left: 49%;
+    bottom: 5%;
+    text-align: center;
+  }
+}
