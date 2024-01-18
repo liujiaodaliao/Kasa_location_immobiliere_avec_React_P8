@@ -28,12 +28,13 @@
     justify-content: center;
     text-decoration: none;
     font-size: 0.875rem;
+    color: #FF6060;
 }
 
 .errorLink:hover, 
 .errorLink:focus {
     text-decoration-line: underline;
-    /* color: #FF6060; */
+    color: #FF6060;
 }
 
 @media screen and (min-width: 768px){

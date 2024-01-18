@@ -4,7 +4,6 @@ import Collapse from "../../components/Collapse/Collapse";
 import aboutCollapse from "../../assets/aboutCollapse.json";
 
 const About = () =>  {
-  // const defaultBackgroundImage = "../../assets/banner_aprops.png"
  
 return (
   <>
