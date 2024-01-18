@@ -1,20 +1,24 @@
 .collapse {
-  width: 89.5%;
-  height: 1.875rem;
-  margin: 20px auto;
+  /* width: 335px; */
+  margin: 20px 20px;
 
   display: flex;
   flex-direction: column;
 }
+
+/* .expanded{
+  margin-bottom: 0;
+} */
 
 .collapse_visible {
   background: #FF6060;
   color: #fff;
   cursor: pointer;
   display: flex;
+  
   justify-content: space-between;
   align-items: center;
-  padding: 10px ;
+  padding: 9px 10px;
   border-radius: 5px;
   height: 100%;
   position: relative;
@@ -42,7 +46,7 @@
 }
 .animated {
   opacity: 1;
-  transition: height 0.5s ease-in-out, opacity 0.5s 0.5s ease-in-out;
+  transition: height 0.5s ease-in-out, opacity 0.3s 0.3s ease-in-out;
 }
 
 .collapse_toggle p {
@@ -70,13 +74,12 @@
 @media screen and (min-width: 768px) {
   .collapse {
     width: 71.1%;
-    height: 3.375rem;
     margin: 30px auto;
   }
 
   .collapse_visible {
     height: 100%;
-    padding: 15px;
+    padding: 14px 15px;
 
   }
   
@@ -85,13 +88,14 @@
     font-weight: 500;
   }
 
-  .collapse_toggle {
+  /* .collapse_toggle {
     padding: 10px 20px 10px 15px;
-  }
+  } */
 
   .collapse_toggle p {
     font-size: 18px;
     font-weight: 400;
+    padding: 10px 20px 10px 15px;
   } 
 
   .chevron{

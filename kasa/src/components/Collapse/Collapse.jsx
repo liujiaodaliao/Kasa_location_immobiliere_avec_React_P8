@@ -28,7 +28,6 @@ function Collapse(props) {
 		// <div className="collapse">
 		<div
 		className={`collapse ${toggle ? "expanded" : ""}`}
-		style={{ marginBottom: toggle ? `${calculatedHeight}` : "0" }}
 	    >
 			<div onClick={toggleState} className="collapse_visible">
 				<h2>{props.aboutTitle}</h2>
