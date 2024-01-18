@@ -1,3 +1,8 @@
+.fiche-container{
+padding: 7px 0;
+width: 89.3%;
+margin: 0 auto;
+}
 
 .title-tags-container{
 display: flex;
@@ -17,6 +22,7 @@ font-size: 18px;
 .tags-container{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 1rem;
     /* 垂直排列方式 */
 }
 
@@ -39,7 +45,18 @@ font-size: 18px;
     align-items: flex-start;
 }
 
+.collapse-fiche-container{
+    display: flex;  
+    flex-direction: column;
+    margin: 0 -20px;
+}
+
 @media screen and (min-width: 768px){
+    .fiche-container{
+        /* padding: 30px 0; */
+        width: 86.1%;
+    }
+
     .rate-host-container{
         flex-direction: column;
 		justify-content: center;
@@ -57,4 +74,8 @@ font-size: 18px;
         font-size: 18px;
     }
 
+    .collapse-fiche-container{
+        column-gap: 76px;
+        flex-direction: row;
+    }
 }
