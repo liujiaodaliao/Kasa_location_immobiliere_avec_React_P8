@@ -1,27 +1,40 @@
+ .homeContainer{
+    margin-bottom: -13px;
+} 
+
 .cardsContainer{
     display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 20px;
+    /* width: 100%; */
     border-radius: 10px;
-    margin: 22px auto;
+    margin: 0 20px;
     flex-wrap: wrap;
+}
+
+.cardLocation{
+    margin: 0 auto 20px;
 }
 
 .linkCardLocation{
     text-decoration: none;
+
 }
 
 @media screen and (min-width: 768px){
+    .homeContainer{
+        margin-bottom: 50px;
+    }
+
     .cardsContainer{
-        
-        margin: 0 auto;
+        margin: 43px 100px 0;
         border-radius: 25px;
         background: #F6F6F6;
-        width: 80.15%;
-        padding: 56px 50px 43px 50px;
-        justify-content:space-around;
-        gap: 50px;
+        /* width: 80.15%; */
+        padding: 50px 50px 0;
+    }
+
+    .cardLocation{
+        margin: 0 auto 50px;
+        /* 参考之前项目卡片间距响应式设计样式 */
     }
 
 }
