@@ -12,7 +12,7 @@ function Collapse(props) {
 
 	useEffect(() => {
 		setCalculatedHeight(`${refHeight.current.scrollHeight}px`); 
-		console.log("Calculated height:", refHeight.current.scrollHeight);
+		// console.log("Calculated height:", refHeight.current.scrollHeight);
 	}, [toggle]);
 
 	const toggleState = () => {
