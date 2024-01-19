@@ -10,26 +10,28 @@ flex-direction: column;
 }
 
 .title-tags-container h1{
-/* margin */
-font-size: 18px;
+    margin: 9px 0;
+    font-size: 18px;
+    line-height: 142.6%;
 }
 
 .title-tags-container h3{
     font-size: 14px;
-    /* margin */
+    margin: 9px 0;
+    line-height: 142.6%;
 }
 
 .tags-container{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 1rem;
-    /* 垂直排列方式 */
 }
 
 .rate-host-container{
     display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -38,6 +40,7 @@ font-size: 18px;
 	flex-direction: column;
     justify-content: space-between;
     width: 100%;
+    margin-top: 15px;
 }
 
 .rate-container{
@@ -48,7 +51,14 @@ font-size: 18px;
 .collapse-fiche-container{
     display: flex;  
     flex-direction: column;
-    margin: 0 -20px;
+    margin: -5px -20px 0;
+}
+
+.equipList {
+	list-style-type: none;
+    line-height: 142.6%;
+    font-size: 12px;
+    /* font-weight: 400; */
 }
 
 @media screen and (min-width: 768px){
@@ -57,13 +67,18 @@ font-size: 18px;
         width: 86.1%;
     }
 
+    .tags-container{
+        margin-bottom: 0;
+    }
+
     .rate-host-container{
         flex-direction: column;
 		justify-content: center;
+        gap: 20px;
     }
     .hostInfo-container{ 
         flex-direction: row;
-        align-items: flex-end;
+        align-items: flex-start;
     }
 
     .title-tags-container h1{
@@ -77,5 +92,9 @@ font-size: 18px;
     .collapse-fiche-container{
         column-gap: 76px;
         flex-direction: row;
+        margin: -10px 0 -21px;
+    }
+    .equipList {
+        font-size: 18px;
     }
 }

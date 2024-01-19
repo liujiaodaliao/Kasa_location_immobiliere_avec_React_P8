@@ -1,6 +1,7 @@
 import React from 'react';
 import emptyStar from "../../assets/emptyStar.svg";
 import fullStar from "../../assets/fullStar.svg";
+import "./Rate.css"
 
 function Rate({ score }) {
     const stars = [1, 2, 3, 4, 5];

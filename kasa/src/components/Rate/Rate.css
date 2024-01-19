@@ -1,23 +1,24 @@
 .rate-comp{
     width: 98px;
     height: 18px;
-    margin-top: 21px;
+    margin-top: 12px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .star{
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
 }
 
 @media screen and (min-width: 768px){
     .rate-comp{
-        width: 196px;
+        width: 166px;
         height: 36px;
     }
     .star{
-        width: 36px;
-        height: 36px;
+        width: 30px;
+        height: 30px;
     }
 }

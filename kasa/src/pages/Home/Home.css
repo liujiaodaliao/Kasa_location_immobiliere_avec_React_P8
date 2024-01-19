@@ -4,19 +4,21 @@
 
 .cardsContainer{
     display: flex;
-    /* width: 100%; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
     border-radius: 10px;
     margin: 0 20px;
-    flex-wrap: wrap;
 }
 
 .cardLocation{
-    margin: 0 auto 20px;
+    margin: 0 0 20px;
+    width: 100%;
 }
 
 .linkCardLocation{
     text-decoration: none;
-
+    min-width:340px;
 }
 
 @media screen and (min-width: 768px){
@@ -28,13 +30,19 @@
         margin: 43px 100px 0;
         border-radius: 25px;
         background: #F6F6F6;
-        /* width: 80.15%; */
         padding: 50px 50px 0;
+        column-gap: 30px;
     }
 
     .cardLocation{
         margin: 0 auto 50px;
-        /* 参考之前项目卡片间距响应式设计样式 */
+        width: calc(33.333% - 20px);
     }
+}
 
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .cardLocation {
+        width: calc(50% - 20px); 
+        margin-bottom: 20px;
+    }
 }
