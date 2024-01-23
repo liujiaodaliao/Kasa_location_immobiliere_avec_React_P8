@@ -1,14 +1,9 @@
 .collapse {
-  /* width: 335px; */
-  margin: 20px 20px 0;
+  margin-top: 20px;
 
   display: flex;
   flex-direction: column;
 }
-
-/* .expanded{
-  margin-bottom: 0;
-} */
 
 .collapse_visible {
   background: #FF6060;
@@ -88,10 +83,6 @@
     font-size: 24px;
     font-weight: 500;
   }
-
-  /* .collapse_toggle {
-    padding: 10px 20px 10px 15px;
-  } */
 
   .collapse_toggle p {
     font-size: 18px;

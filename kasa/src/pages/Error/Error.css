@@ -5,14 +5,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    column-gap: 7rem;
-    margin: 0 6% 7rem ;
+    margin: 0 auto;
 }
 
 .errorTitle{
     font-size: 6rem;
     font-weight: 700;
-    margin: 113px auto;
+    margin: 93px auto 113px;
 }
 
 .errorText{
@@ -20,7 +19,7 @@
     justify-content: center;
     text-align: center;
     font-size: 1.125rem;
-    margin: 0 auto 113px;
+    margin-bottom: 113px;
 }
 
 .errorLink{
@@ -29,6 +28,7 @@
     text-decoration: none;
     font-size: 0.875rem;
     color: #FF6060;
+    margin-bottom: 113px;
 }
 
 .errorLink:hover, 
@@ -40,7 +40,6 @@
 @media screen and (min-width: 768px){
     .errorContainer{
         column-gap: 8.7rem;
-        margin-bottom: 8.7rem;
     }
     
     .errorTitle{

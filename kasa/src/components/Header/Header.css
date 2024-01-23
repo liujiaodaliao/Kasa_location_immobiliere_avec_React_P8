@@ -2,9 +2,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px;
+  padding: 20px;
   height:auto;
-}
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+} 
  
 .headerWrap_fig {
   display: flex;
@@ -35,7 +42,7 @@
 
 @media screen and (min-width: 768px) {
   .headerWrap {
-    margin: 2.813rem 6.25rem 3.1125rem;
+    padding: 2.813rem 6.25rem 3.1125rem;
   }
   .headerWrap_fig{
     width: 13.2rem;

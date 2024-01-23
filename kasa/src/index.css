@@ -7,14 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   min-width: 375px;
-  height: auto;
+  height: 100%;
   margin: 0;
+  overflow: auto;
+}
+
+#root {
+  max-width: 100%;
+  height:100%;
+  margin: 0; 
+  padding: 0; 
+  position: relative;
+}
+
+main {
+  padding: 87px 20px 0;
 }
 
 @media screen and (min-width: 768px){
 body{
   max-width: 1440px;
 }
+
+main {
+  padding: 163px 100px 0;
 }
 
 code {
@@ -26,4 +42,6 @@ code {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   line-height: 100%;
+}
+
 }
