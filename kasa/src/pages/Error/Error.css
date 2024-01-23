@@ -11,7 +11,7 @@
 .errorTitle{
     font-size: 6rem;
     font-weight: 700;
-    margin: 93px auto 113px;
+    margin: 5.813rem auto 7.063rem;
 }
 
 .errorText{
@@ -19,7 +19,7 @@
     justify-content: center;
     text-align: center;
     font-size: 1.125rem;
-    margin-bottom: 113px;
+    margin-bottom: 7.063rem;
 }
 
 .errorLink{
@@ -28,7 +28,7 @@
     text-decoration: none;
     font-size: 0.875rem;
     color: #FF6060;
-    margin-bottom: 113px;
+    margin-bottom: 7.063rem;
 }
 
 .errorLink:hover, 

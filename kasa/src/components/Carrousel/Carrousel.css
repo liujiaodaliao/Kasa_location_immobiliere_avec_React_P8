@@ -12,8 +12,8 @@
   display: flex;
   position: absolute;
   top: 47%;
-  width: 12px;
-  height: 20px;
+  width: 0.75rem;
+  height: 1.25rem;
   z-index: 10;
   cursor: pointer;
 }
@@ -63,21 +63,21 @@
 
   .slider,
   .slider img {
-    border-radius: 25px;
+    border-radius: 1.563rem;
   }
 
   .leftArrow,
   .rightArrow {
-    width: 47px;
-    height: 79px;
+    width: 2.938rem;
+    height: 4.938rem;
   }
 
   .slider-number {
     display: block;
     color: #fff;
-    width: 24px;
-    height: 32.402px;
-    font-size: 18px;
+    width: 1.5rem;
+    height: 2.025rem;
+    font-size: 1.125rem;
 
     position: absolute;
     left: 49%;

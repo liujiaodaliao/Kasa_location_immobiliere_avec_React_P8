@@ -11,7 +11,7 @@
 @media screen and (min-width: 768px){
    .AboutBannerContainer{
     height: 14rem;
-    margin: 30px 0 2.375rem;
-    border-radius: 25px;
+    margin: 1.875rem 0 2.375rem;
+    border-radius: 1.563rem;
    } 
 }

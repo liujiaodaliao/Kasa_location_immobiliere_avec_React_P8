@@ -4,7 +4,7 @@
 }
 
 .tagButton{
-    height: 18px;
+    height: 1.125rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,8 +19,8 @@
 @media screen and (min-width: 768px){
     .tagButton{
         flex-direction: column;
-        height: 25px;
+        height: 1.563rem;
         border-radius: 10px;
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 }

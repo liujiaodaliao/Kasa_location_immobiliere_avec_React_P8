@@ -1,5 +1,5 @@
 .collapse {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@
   align-items: center;
   padding: 9px 10px;
   border-radius: 5px;
-  height: 12px;
+  height: 0.75rem;
   position: relative;
 }
 
@@ -46,7 +46,7 @@
 
 .collapse_toggle p {
   margin: 0;
-  padding: 12px 15px;
+  padding: 0.75rem 0.938rem;
   pointer-events: none;
   font-size: 12px;
   font-weight: 400;
@@ -54,7 +54,7 @@
 } 
 
 .chevron {
-	width: 22px;
+	width: 1.375rem;
 	transform: rotate(0deg);
 	transition: 0.5s 0.5s ease-in-out;
   position: absolute;
@@ -69,12 +69,12 @@
 @media screen and (min-width: 768px) {
   .collapse {
     width: 71.1%;
-    margin: 30px auto;
+    margin: 1.875rem auto;
   }
 
   .collapse_visible {
-    height: 24px;
-    padding: 14px 15px;
+    height: 1.5rem;
+    padding: 0.875rem 0.938rem;
     border-radius: 10px;
 
   }
@@ -91,7 +91,7 @@
   } 
 
   .chevron{
-    width: 32px;
+    width: 2rem;
   }
 
 } 

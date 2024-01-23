@@ -12,30 +12,30 @@
 }
 
 .cardLocation{
-    margin-bottom:20px;
+    margin-bottom: 1.25rem;
     width: 100%;
 }
 
 .linkCardLocation{
     text-decoration: none;
-    min-width:340px;
+    min-width: 21.25rem;
 }
 
 @media screen and (min-width: 768px){
     .homeContainer{
-        margin-bottom: 50px;
+        margin-bottom: 3.125rem;
     }
 
     .cardsContainer{
-        margin-top: 43px;
-        border-radius: 25px;
+        margin-top: 2.688rem;
+        border-radius: 1.563rem;
         background: #F6F6F6;
-        padding: 50px 50px 0;
-        column-gap: 20px;
+        padding: 3.125rem 3.125rem 0;
+        column-gap: 1.25rem;
     }
 
     .cardLocation{
-        margin-bottom: 50px;
+        margin-bottom: 3.125rem;
         width: calc(33.333% - 20px);
     }
 }

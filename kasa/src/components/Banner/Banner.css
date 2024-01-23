@@ -19,7 +19,7 @@
 
 .Bannertext{
     color: #FFF;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 100%;
     position: absolute;
     top: 10%;
@@ -29,8 +29,8 @@
 @media screen and (min-width: 768px){
     .BannerContainer{
         height: 14rem;
-        margin: 30px 0 43px;
-        border-radius: 25px;
+        margin: 1.875rem 0 2.688rem;
+        border-radius: 1.563rem;
     }
 
     .Bannertext{  
