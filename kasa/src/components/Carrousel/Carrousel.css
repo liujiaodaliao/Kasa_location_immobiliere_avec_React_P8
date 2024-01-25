@@ -37,22 +37,22 @@
 }
 .slider {
   opacity: 0;
-  transition: opacity ease-in-out 0.5s;
+  transition: opacity ease-in-out 0.4s;
 }
 .slider img {
   object-fit: cover;
   mix-blend-mode: normal; /* 元素的内容在视觉上完全覆盖其背景 */
 }
 
-.slider:not(.active-anim) img {
+.slider:not(.active-ani) img {
   display: none; /* 非活动状态的轮播图隐藏图片 */
 }
 
-.slider-number {
+.number {
   display: none;
 }
 
-.active-anim {
+.active-ani {
   opacity: 1;
 }
 
@@ -72,7 +72,7 @@
     height: 4.938rem;
   }
 
-  .slider-number {
+  .number {
     display: block;
     color: #fff;
     width: 1.5rem;

@@ -27,12 +27,12 @@ function Home() {
     <Banner />
     <div className="cardsContainer">
     {/* 使用 map 方法遍历数据数组，为每个数据项创建卡片 */}
-				{data.map((appart, id) => (
+				{data.map((appartement, id) => (
 					<div className="cardLocation" key={id}>
             {/* 使用 Link 组件创建链接，链接到特定的位置页面 */}
-						<Link className="linkCardLocation" to={`/location/${appart.id}`}>
+						<Link className="linkCardLocation" to={`/location/${appartement.id}`}>
               {/* 渲染 Cards 组件，并传递 cover 和 title 属性 */}
-							<Cards cover={appart.cover} title={appart.title} />
+							<Cards cover={appartement.cover} title={appartement.title} />
 						</Link>
 					</div>
 				))}

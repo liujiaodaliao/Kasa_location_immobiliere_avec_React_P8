@@ -5,6 +5,7 @@
     position: relative;
     overflow: hidden;
     background: #000 url('../../assets/AboutBanner.png') center/cover no-repeat;
+    filter: brightness(80%) contrast(120%);
 }
 
 

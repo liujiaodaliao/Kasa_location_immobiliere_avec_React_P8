@@ -8,11 +8,11 @@ const About = () =>  {
 return (
   <>
     <AboutBanner backgroundImage="../../assets/banner_aprops.png" />
-    {aboutCollapse.map((rule, id) => (
+    {aboutCollapse.map((item, id) => (
       <Collapse
         key={id}
-        aboutTitle={rule.aboutTitle}
-        aboutText={rule.aboutText}   
+        aboutTitle={item.aboutTitle}
+        aboutText={item.aboutText}   
       />
     ))}
   </>
