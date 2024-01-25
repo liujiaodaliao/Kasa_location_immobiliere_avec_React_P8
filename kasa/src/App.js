@@ -13,19 +13,17 @@ import './App.css';
 
 function App() {
   return (
-    // <div className="container">
-<>
+    <>
       <Header />
-       <main>
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Error />} />
           <Route path="/location/:id" element={<Location />} />
         </Routes>
-       </main>
-       <Footer />
-    {/* </div> */}
+      </main>
+      <Footer />
     </>
   );
 }

@@ -5,8 +5,8 @@ import "./Header.css";
 
 function Header() {
   return (
-    <header className="headerWrap">
-      <figure className="headerWrap_fig">
+    <header className="headerContainer">
+      <figure className="headerContainer_fig">
         <img className="logo" src={logo} alt="logo de l'agence kasa" />
       </figure>
       <Nav className="nav_header" />

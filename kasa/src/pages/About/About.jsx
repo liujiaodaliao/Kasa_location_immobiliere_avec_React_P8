@@ -12,7 +12,7 @@ return (
       <Collapse
         key={id}
         aboutTitle={rule.aboutTitle}
-        aboutText={rule.aboutText}      
+        aboutText={rule.aboutText}   
       />
     ))}
   </>

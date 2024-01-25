@@ -4,9 +4,9 @@ import "./Footer.css";
 
  function Footer() {
   return (
-		<footer className="foot-container">
+		<footer className="footContainer">
            <img src={logo} alt="Logo de Kasa"/>
-			<p className="foot-container_text">© 2020 Kasa. All rights reserved</p>
+			<p className="footContainer_text">© 2020 Kasa. All rights reserved</p>
 		</footer>
 	);
 }

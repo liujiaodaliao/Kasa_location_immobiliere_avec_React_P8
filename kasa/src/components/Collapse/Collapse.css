@@ -35,9 +35,6 @@
   
   display: flex;
   flex-direction: column;
-  
-  /* 调整文本左对齐 */
-
 }
 .animated {
   opacity: 1;
@@ -68,7 +65,7 @@
 
 @media screen and (min-width: 768px) {
   .collapse {
-    width: 71.1%;
+    width: 82.5%;
     margin: 1.875rem auto;
   }
 
@@ -76,7 +73,6 @@
     height: 1.5rem;
     padding: 0.875rem 0.938rem;
     border-radius: 10px;
-
   }
   
   .collapse_visible h2 {

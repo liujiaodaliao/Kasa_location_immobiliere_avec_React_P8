@@ -1,4 +1,4 @@
-.rate-comp{
+.rateContainer{
     width: 6.125rem;
     height: 1.125rem;
     margin-top: 0.75rem 0;
@@ -7,17 +7,17 @@
     align-items: center;
 }
 
-.star{
+.stars{
     width: 0.938rem;
     height: 0.938rem;
 }
 
 @media screen and (min-width: 768px){
-    .rate-comp{
+    .rateContainer{
         width: 10.375rem;
         height: 2.25rem;
     }
-    .star{
+    .stars{
         width: 1.875rem;
         height: 1.875rem;
     }
