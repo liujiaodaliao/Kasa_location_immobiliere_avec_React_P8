@@ -26,7 +26,9 @@
   .nav_header_link_home:hover,
   .nav_header_link_about:hover,
   .nav_header_link_home:focus,
-  .nav_header_link_about:focus {
+  .nav_header_link_about:focus, 
+  .nav_header_link_home.active,
+  .nav_header_link_about.active {
     text-decoration-line: underline;
     outline: none;
     color: #FF6060;

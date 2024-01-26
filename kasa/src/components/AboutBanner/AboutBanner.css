@@ -1,7 +1,7 @@
 .AboutBannerContainer{
     height: 7rem;
     border-radius: 10px;
-    margin: 0 0 1.188rem;
+    margin: 0 auto 1.188rem;
     position: relative;
     overflow: hidden;
     background: #000 url('../../assets/AboutBanner.png') center/cover no-repeat;
@@ -12,7 +12,8 @@
 @media screen and (min-width: 768px){
    .AboutBannerContainer{
     height: 14rem;
-    margin: 1.875rem 0 2.375rem;
+    margin: 1.875rem auto 2.375rem;
     border-radius: 1.563rem;
+    max-width: 1440px;
    } 
 }

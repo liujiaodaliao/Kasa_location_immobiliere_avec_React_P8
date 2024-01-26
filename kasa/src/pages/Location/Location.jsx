@@ -37,7 +37,7 @@ function Location() {
 		// 调用异步函数
 	}, [params.id, navigate]); // array vide du useEffect pour ne lancer qu'une seule fois
 
-	// vérifier la valeur 检查是否有空值，有则停止，避免错误，quip为数组
+	// vérifier la valeur null 检查是否有空值，有则停止，避免错误，quip为数组
 	const slidePics = pickedAppart && pickedAppart.pictures;
 	const tags = pickedAppart && pickedAppart.tags;
 	const equipments = pickedAppart && pickedAppart.equipments;

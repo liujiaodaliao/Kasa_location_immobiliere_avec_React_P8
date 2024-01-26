@@ -20,10 +20,11 @@
 .Bannertext{
     color: #FFF;
     font-size: 1.5rem;
-    line-height: 100%;
+    line-height: 110%;
     position: absolute;
     top: 10%;
     left: 1rem; 
+    max-width: calc(100% - 2 * 2%);
 }
 
 @media screen and (min-width: 768px){
@@ -35,7 +36,14 @@
 
     .Bannertext{  
     font-size: 3rem;
-    top: 20%;
-    left: 23%;
+    top: 15%;
+    left: 22%;
+    right:5% ;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1180px){
+    .Bannertext{
+        left: 12%;
     }
 }
